@@ -5,7 +5,7 @@
 VOLUME_PERCENT=$1
 COMMAND_AMIXER=$(command -v amixer)
 
-if [ -x $COMMAND_AMIXER ];
+if ! [ -x $COMMAND_AMIXER ];
 then
   echo "command amixer is not found"
   exit 1

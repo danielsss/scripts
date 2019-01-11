@@ -1,6 +1,19 @@
 # Scripts
 a lots of scripts for daily work
 
+## volume.sh
+using it on Raspiberry platform
+
+
+
+```shell
+git clone https://github.com/danielsss/scripts.git
+cd scripts/src
+sudo chmod +x volume.sh
+sudo cp -r volume.sh /usr/local/bin/volume
+echo "alias volume='/bin/bash /usr/local/bin/volume'"
+```
+
 
 ## docker_wait.sh
 ```yml
