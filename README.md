@@ -1,5 +1,5 @@
 # Scripts
-a lots of scripts for daily work
+a lot of scripts for daily work
 
 ## volume.sh
 using it on Raspiberry platform
