@@ -49,6 +49,7 @@ fi
 PROJECT_F="${PWD}/.git/config";
 if [ ! -f "$PROJECT_F" ]; then
   echo "Not found .git/config";
+  echo "Make sure to stay in a folder of the Git project before run 'ggpg'"
   exit 1;
 fi
 
