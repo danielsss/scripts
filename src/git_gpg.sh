@@ -5,7 +5,15 @@ cd $PWD;
 
 # Calculate input length
 if [ $# -lt 2 ]; then
-  echo "Usage: ./git_gpg.sh --user='string value' --email='string value'";
+  echo -e "\t\t\t\t<GGPG>\n";
+  echo -e "\t\t\t------------------------\n";
+  echo -e "\tUsage:";
+  echo -e "\t ./git_gpg.sh --user='string value' --email='string value'\n";
+  echo -e "\t\t\t\t OR \n";
+  echo -e "\t alias ggpg=$(pwd)/src/git_gpg.sh";
+  echo -e "\t alias GGPG=$(pwd)/src/git_gpg.sh\n"
+  echo -e "\t ggpg --user='string value' --email='string value'";
+  exit 0;
 fi
 
 # Assign input arguments

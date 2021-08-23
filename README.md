@@ -1,6 +1,10 @@
 # Scripts
 a lot of scripts for daily work
 
+## git_gpg.sh
+alias
+./git_gph.sh --user=example --email=example@example.com
+
 ## volume.sh
 using it on Raspiberry platform
 
