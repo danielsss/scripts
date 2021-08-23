@@ -2,8 +2,8 @@
 a lot of scripts for daily work
 
 ## git_gpg.sh
-alias
-./git_gph.sh --user=example --email=example@example.com
+
+Executing `$pwd/src/git_gpg.sh` for more details
 
 ## volume.sh
 using it on Raspiberry platform
