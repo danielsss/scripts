@@ -1,5 +1,11 @@
 # Scripts
-a lot of scripts for daily work
+A lot of scripts for daily work and Also, There're some media contents that is about English.
+
+
+## Resources
+
+* [Phonetic List](./src//english//medias/)
+* [750 Oxford Common Phrases](./resources/oxford_common_phrase_list.json)
 
 ## git_gpg.sh
 
