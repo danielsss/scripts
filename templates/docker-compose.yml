@@ -1,0 +1,36 @@
+version: '3'
+services:
+  webdavs2:
+    image: bytemark/webdav:latest
+    container_name: webdavs2
+    restart: always
+    ports:
+      - "2050:80"
+    environment:
+      AUTH_TYPE: Digest
+      USERNAME: sharedTV
+      PASSWORD: 123123
+    volumes:
+      - "$HOME_DIR:/var/lib/dav/data/s2:rw"
+
+  webdavs1:
+    image: bytemark/webdav:latest
+    container_name: webdavs1
+    restart: always
+    ports:
+      - "2051:80"
+    environment:
+      AUTH_TYPE: Digest
+      USERNAME: sharedTV
+      PASSWORD: 123123
+    volumes:
+      - "$HOME_DIR:/var/lib/dav/data/s1:rw"
+
+  sftp:
+    image: atmoz/sftp
+    container_name: sftp
+    volumes:
+      - "$HOME_DIR:/home/foo/upload"
+    ports:
+      - "2222:22"
+    command: foo:bar:1001
