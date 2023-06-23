@@ -4,7 +4,7 @@ A lot of scripts for daily works.
 
 ## Home media solution
 
-docker-compose -f [docker-compose.yml](./templates/docker-compose.yml) up --build -d
+docker-compose -f [template/docker-compose.yml](./templates/docker-compose.yml) up --build -d
 
 Once all the services are getting started, then you can access services on protocol sftp or Webdav.
 
