@@ -2,7 +2,7 @@
 
 A lot of scripts for daily works.
 
-## Home media solution
+## Home media solutions
 
 docker-compose -f [template/docker-compose.yml](./templates/docker-compose.yml) up --build -d
 
